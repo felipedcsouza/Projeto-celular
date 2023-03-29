@@ -34,5 +34,27 @@ background: url(../Projeto-celular/imagens/frame-iphone.png) no-repeat;
         top: 80px;
         left: 22px;
         width: 268px;
-        height: 471px;
+        height: 471px;  
     }
+        section#Redes-sociais{
+text-align: right;
+
+
+
+        }
+
+    section#Redes-sociais img{
+        width: 50px;
+        margin: 10px;
+        border-radius: 50%;
+        box-sizing: border-box;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.637) ;
+    }
+        section#Redes-sociais img:hover{
+        border: 2px solid rgba(255, 255, 255, 0.719);
+        transform: translate(-4px, -4px);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.603);
+        transition:transform 0.5s, ;
+
+
+        }
